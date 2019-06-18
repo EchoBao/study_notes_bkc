@@ -1,1 +1,3 @@
-
+### 背景介绍
+SystemServer是Android系统的核心进程之一，我们常见的android系统服务大部分都运行在这个进程中，且都是由SystemServer进程启动。之所以google会在android系统里面存在一个systemserver进程，是为了防止应用经常直接访问底层设备资源时对系统可能造成的破坏。有了systemserver进程之后，应用进程需要通过Binder机制来访问systemserver提供的服务，从而间接访问底层设备资源。
+##### 通过adb shell ps命令可以查看systemserver进程及其线程
