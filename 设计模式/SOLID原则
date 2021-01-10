@@ -1,0 +1,11 @@
+SOLID原则
+S --- Single Responsiblity Principle
+    单一职责，一个类只做一个事，类的功能要单一
+O --- Open Close Principle
+    开闭原则，对扩展开放，对修改关闭，类抽象出易变化的部分，独立处理，通常为一个接口，或者抽象类
+L --- Lishi Replace Principle
+    里式替换原则，基类出现的地方，子类可以替换出现，反之不行
+I --- Interface Segregation Principle
+    接口隔离，接口尽量单一功能，接口与接口之间功能不耦合
+D ---Dependence Inversion Principle
+    依赖倒置原则，上层不依赖于下层的具体实现，只依赖于下层实现的抽象
